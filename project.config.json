@@ -23,6 +23,20 @@
       "array": "books",
       "slug": "slug",
       "path": "books"
+    },
+    {
+      "template": "bake-movie",
+      "data": "movies",
+      "array": "celeste",
+      "slug": "slug",
+      "path": "reviews"
+    },
+    {
+      "template": "bake-movie",
+      "data": "movies",
+      "array": "ethan",
+      "slug": "slug",
+      "path": "reviews"
     }
   ]
 }
