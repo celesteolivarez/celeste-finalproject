@@ -6,8 +6,9 @@
 <div class="container">
   <div class="row">
     <div class="col">
-        <h1>What Movies Mean to Me</h1>
-        <p>blah...blah.. blah. I'll add some heartfelt stuff later.</p>
+      <h1>Why Are Movies so Important?</h1>
+      <p>Movies have always been more than just entertainment for me. They’re a way to connect with emotion, memory and perspective. I love the feeling of getting lost in a story, of seeing the world through someone else’s eyes, even if just for a couple hours. Whether it's laughing until I cry or sitting in silence through the credits, movies create moments that stick. And there’s something special about going out to watch them — sitting in a dark theater, surrounded by strangers all experiencing the same thing at the same time. It’s a shared experience that reminds me why storytelling matters. In a world that moves fast, movies slow us down, pull us in, and invite us to feel something real.</p>
+      
     </div>
   </div>
 
@@ -17,11 +18,19 @@
       {% for theater in theaters.theaters %}
       <div class="col">
         <div class="card h-100">
-          <div class="card-body">
-            <h5 class="card-title">{{ theater.theater_name }}</h5>
-            <p class="card-text"><strong>Address:</strong> {{ theater.address }}</p>
-            <p class="card-text"><strong>Rating:</strong> {{ theater.rating }}</p>
-            <a href="{{ theater.source }}" target="_blank" class="btn btn-sm btn-outline-primary">Visit Website</a>
+          <div class="row g-0 h-100">
+            <div class="col-md-8">
+              <div class="card-body d-flex flex-column h-100">
+                <h5 class="card-title">{{ theater.theater_name }}</h5>
+                <p class="card-text"><strong>Address:</strong> {{ theater.address }}</p>
+                <p class="card-text"><strong>Rating:</strong> {{ theater.rating }}</p>
+                <a href="{{ theater.source }}" target="_blank" class="btn btn-sm btn-outline-primary mt-auto">Visit Website</a>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <img src="/img/{{ theater.image }}" alt="{{ theater.theater_name }}" class="img-fluid rounded-end h-100 w-100" style="object-fit: cover;">
+            </div>
           </div>
         </div>
       </div>

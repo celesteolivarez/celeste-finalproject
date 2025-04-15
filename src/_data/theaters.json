@@ -4,49 +4,57 @@
       "theater_name": "Galaxy Theatres Austin",
       "address": "6700 Middle Fiskville Rd, Austin, TX 78752",
       "rating": "4.4/5",
-      "source": "https://www.galaxytheatres.com/movie-theater/austin"
+      "source": "https://www.galaxytheatres.com/movie-theater/austin",
+      "image": "galaxy-theatres-austin.jpg"
     },
     {
       "theater_name": "Alamo Drafthouse Cinema South Lamar",
       "address": "1120 S Lamar Blvd, Austin, TX 78704",
       "rating": "4.6/5",
-      "source": "https://drafthouse.com/austin/theater/south-lamar"
+      "source": "https://drafthouse.com/austin/theater/south-lamar",
+      "image": "alamo-drafthouse-cinema-south-lamar.jpg"
     },
     {
       "theater_name": "Violet Crown Cinema",
       "address": "434 W 2nd St, Austin, TX 78701",
       "rating": "4.6/5",
-      "source": "https://austin.violetcrown.com/cinema"
+      "source": "https://austin.violetcrown.com/cinema",
+      "image": "violet-crown-cinema.jpg"
     },
     {
       "theater_name": "Alamo Drafthouse Cinema Mueller",
       "address": "1911 Aldrich St #120, Austin, TX 78723",
       "rating": "4.6/5",
-      "source": "https://drafthouse.com/austin/theater/mueller"
+      "source": "https://drafthouse.com/austin/theater/mueller",
+      "image": "alamo-drafthouse-cinema-mueller.jpg"
     },
     {
       "theater_name": "AMC Barton Creek Square 14",
       "address": "2901 S Capital of Texas Hwy, Austin, TX 78746",
       "rating": "3.9/5",
-      "source": "https://www.amctheatres.com/movie-theatres/austin/amc-barton-creek-square-14?utm_medium=organic&utm_source=google&utm_campaign=local"
+      "source": "https://www.amctheatres.com/movie-theatres/austin/amc-barton-creek-square-14?utm_medium=organic&utm_source=google&utm_campaign=local",
+      "image": "amc-barton-creek-square-14.jpg"
     },
     {
       "theater_name": "IPIC Theaters",
       "address": "3225 Amy Donovan Plaza, Austin, TX 78758",
       "rating": "4.2/5",
-      "source": "https://www.ipic.com/austin-tx-the-domain/location?utm_source=google&utm_medium=local_listings&utm_campaign=yext"
+      "source": "https://www.ipic.com/austin-tx-the-domain/location?utm_source=google&utm_medium=local_listings&utm_campaign=yext",
+      "image": "ipic-theaters.jpg"
     },
     {
       "theater_name": "Bullock Museum IMAX Theatre",
       "address": "1800 N Congress Ave, Austin, TX 78701",
       "rating": "4.7/5",
-      "source": "https://www.thestoryoftexas.com/visit/see-films"
+      "source": "https://www.thestoryoftexas.com/visit/see-films",
+      "image": "bullock-museum-imax-theatre.jpg"
     },
     {
       "theater_name": "AFS Cinema",
       "address": "6259 Middle Fiskville Rd, Austin, TX 78752",
       "rating": "4.8/8",
-      "source": "https://www.austinfilm.org/"
+      "source": "https://www.austinfilm.org/",
+      "image": "afs-cinema.jpg"
     }
   ]
 }
